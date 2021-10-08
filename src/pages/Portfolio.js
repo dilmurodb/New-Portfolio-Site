@@ -10,8 +10,8 @@ const Portfolio = () => {
     window.scroll(0, 0);
   }, []);
   return (
-    <div>
-      <div style={{ margin: `50px`, backgroundColor: "green" }}>
+    <div className="main-div">
+      <div className="trivia">
         <a
           href="https://dilmurodb.github.io/trivia/"
           target="_blank"
@@ -21,8 +21,7 @@ const Portfolio = () => {
           <FontAwesomeIcon icon={faBookOpen} size="5x" />
         </a>
       </div>
-      <p>---</p>
-      <div style={{ margin: `50px`, backgroundColor: "green" }}>
+      <div className="to-do-list">
         <a
           href="https://bukharov-todo-list.herokuapp.com/"
           target="_blank"
@@ -32,8 +31,7 @@ const Portfolio = () => {
           <FontAwesomeIcon icon={faTasks} size="5x" />
         </a>
       </div>
-      <p>---</p>
-      <div style={{ margin: `50px`, backgroundColor: "green" }}>
+      <div className="tic-tac-toe">
         <a
           href="https://dilmurodb.github.io/tic-tac/"
           target="_blank"
@@ -43,8 +41,7 @@ const Portfolio = () => {
           <FontAwesomeIcon icon={faTh} size="5x" />
         </a>
       </div>
-      <p>---</p>
-      <div style={{ margin: `50px`, backgroundColor: "green" }}>
+      <div className="random-creations">
         <a
           href="https://musing-fermi-856938.netlify.com/"
           target="_blank"
