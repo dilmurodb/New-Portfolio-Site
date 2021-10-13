@@ -10,7 +10,7 @@ const Portfolio = () => {
     window.scroll(0, 0);
   }, []);
   return (
-    <div className="main-div">
+    <div className="main-portfolio-div">
       <div className="trivia">
         <a
           href="https://dilmurodb.github.io/trivia/"

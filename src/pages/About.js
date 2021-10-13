@@ -5,7 +5,7 @@ const About = () => {
   }, []);
   return (
     <div>
-      <h1>about</h1>
+      <h1>About</h1>
       <p>
         Hello, my name is Dilmurod Bukharov, I am a Software Engineer and a
         Traveler.
