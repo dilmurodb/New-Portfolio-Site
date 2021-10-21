@@ -1,11 +1,18 @@
 import { useEffect } from "react";
+// import backgroundImage from "../images/pictureOriginal.jpg";
+import mainImage from "../images/me.jpg";
 const Home = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
   return (
-    <div>
-      <h1>Welcome to main page</h1>
+    <div
+      className="home-div"
+      // style={{
+      //   backgroundImage: `url(${backgroundImage})`,
+      // }}
+    >
+      <img src={mainImage} alt="My Portrait" className="portrait" />
     </div>
   );
 };

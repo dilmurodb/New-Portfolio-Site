@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <div>
-      <Link to="/">
-        <h1>Dilmurod Bukharov</h1>
-      </Link>
+    <div className="header">
+      <div className="header-name">
+        <Link to="/">
+          <h1>Dilmurod Bukharov</h1>
+        </Link>
+      </div>
       <ul className="nav">
         <li>
           <Link to="/about">About</Link>

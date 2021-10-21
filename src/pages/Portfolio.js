@@ -15,7 +15,7 @@ const Portfolio = () => {
         <a
           href="https://dilmurodb.github.io/trivia/"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
           style={{ color: `white` }}
         >
           <FontAwesomeIcon icon={faBookOpen} size="5x" />
@@ -25,7 +25,7 @@ const Portfolio = () => {
         <a
           href="https://bukharov-todo-list.herokuapp.com/"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
           style={{ color: `white` }}
         >
           <FontAwesomeIcon icon={faTasks} size="5x" />
@@ -35,7 +35,7 @@ const Portfolio = () => {
         <a
           href="https://dilmurodb.github.io/tic-tac/"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
           style={{ color: `white` }}
         >
           <FontAwesomeIcon icon={faTh} size="5x" />
@@ -45,7 +45,7 @@ const Portfolio = () => {
         <a
           href="https://musing-fermi-856938.netlify.com/"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
           style={{ color: `white` }}
         >
           <FontAwesomeIcon icon={faLightbulb} size="5x" />

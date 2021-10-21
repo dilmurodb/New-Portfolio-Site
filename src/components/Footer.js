@@ -11,8 +11,8 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/d-bukharov/"
           target="_blank"
-          rel="noopener"
-          style={{ color: `black` }}
+          rel="noreferrer"
+          style={{ color: `white` }}
         >
           <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
         </a>
@@ -21,8 +21,8 @@ const Footer = () => {
         <a
           href="https://github.com/dilmurodb"
           target="_blank"
-          rel="noopener"
-          style={{ color: `black` }}
+          rel="noreferrer"
+          style={{ color: `white` }}
         >
           <FontAwesomeIcon icon={["fab", "github-square"]} size="3x" />
         </a>
@@ -31,8 +31,8 @@ const Footer = () => {
         <a
           href="https://medium.com/@dilmurod.bukharov"
           target="_blank"
-          rel="noopener"
-          style={{ color: `black` }}
+          rel="noreferrer"
+          style={{ color: `white` }}
         >
           <FontAwesomeIcon icon={["fab", "medium"]} size="3x" />
         </a>

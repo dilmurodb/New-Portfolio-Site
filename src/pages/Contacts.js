@@ -23,7 +23,7 @@ const Contacts = () => {
           <a
             href="https://github.com/dilmurodb"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
             style={{ color: `black` }}
           >
             <FontAwesomeIcon icon={["fab", "github-square"]} size="3x" />
@@ -34,7 +34,7 @@ const Contacts = () => {
           <a
             href="https://www.linkedin.com/in/d-bukharov/"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
             style={{ color: `black` }}
           >
             <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
